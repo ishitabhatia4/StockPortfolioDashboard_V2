@@ -1,14 +1,27 @@
-# StockPortfolioApp_v2 (Simple Local Save)
+# 📊 Stock Portfolio Dashboard V2
 
-This simplified version uses Firebase Authentication (REST) for Signup/Login/Password Reset
-and saves portfolio data locally per user in `user_data/data_{uid}.json`.
+A simple and elegant **Stock Portfolio Tracking App** built with **Python (Streamlit)**.  
+This app helps users monitor their stock performance, view profits/losses, and download portfolio reports — all in one dashboard.
 
-**Before running:** update `firebase_config.py` with your project's keys if needed.
+---
 
-Run locally:
-```
-pip install -r requirements.txt
-streamlit run app.py
-```
+## 🚀 Features
+- 📈 View **Overall Portfolio Summary**
+- 💰 Track **Profit & Loss** for individual stocks
+- 🔄 **Auto-Refresh** for real-time updates
+- 🌓 **Dark/Light Mode** support (follows device theme)
+- 🧾 Download **Detailed Reports** (PDF)
+- 🔐 **Firebase Authentication** for login/signup
 
-Note: This version saves data locally (per machine). For cloud persistence, Firestore integration is recommended.
+---
+
+## 🧠 Tech Stack
+- **Python 3.10+**
+- **Streamlit** for UI
+- **Firebase** (Authentication + Data Storage)
+- **Matplotlib / Plotly** for charts
+- **JSON** for local data handling
+
+---
+
+## 📂 Project Structure
