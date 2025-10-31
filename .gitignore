@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+
+# Ignore user data
+user_data/
+user_profiles/
+
+# Ignore secret and local config files
+firebase_config.py
+serviceAccountKey.json
+local_db.json
+session.json
+users.json
+
+# Ignore reports and temporary files
+*.pdf
+*.png
+*.json
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
